@@ -1,2 +1,2 @@
 # HSLink_Hardware
-A place to release hslink hardware
+用于存放历史HSLink的硬件工程。
