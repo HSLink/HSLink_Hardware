@@ -30,8 +30,6 @@ fp-info-cache
 *.xml
 *.csv
 
-*.pdf
-
 \#auto_saved_files#
 
 Gerber.zip
