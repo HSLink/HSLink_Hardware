@@ -4086,6 +4086,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 157.48) (xy 39.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6c782f-71fb-4ecf-954e-d6924d11add2")
+	)
+	(wire
+		(pts
 			(xy 104.14 113.03) (xy 91.44 113.03)
 		)
 		(stroke
@@ -4156,6 +4166,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 153.67) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86948c8-c2ee-48d4-b9af-a5d541681304")
+	)
+	(wire
+		(pts
 			(xy 92.71 147.32) (xy 92.71 149.86)
 		)
 		(stroke
@@ -4223,6 +4243,16 @@
 			(type default)
 		)
 		(uuid "bbb80eb6-c51c-41c8-8b12-ea45b1f60618")
+	)
+	(wire
+		(pts
+			(xy 46.99 157.48) (xy 50.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbedb1e-987b-44e9-80c6-9f9beb195e79")
 	)
 	(wire
 		(pts
@@ -4523,6 +4553,16 @@
 			(justify left bottom)
 		)
 		(uuid "1768c414-03bc-4890-9e59-3ca4d79997b7")
+	)
+	(label "UART_RX"
+		(at 26.67 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e01a201-d464-4f0b-82fa-0116b8947751")
 	)
 	(label "TRST"
 		(at 92.71 105.41 0)
@@ -6757,6 +6797,138 @@
 			(project "HSLinkPro"
 				(path "/5e2c1440-f6a4-4887-af75-aa6afc882006/730f2898-4f63-4d81-8a12-972da09fb379"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd83908b-3878-4a62-9254-b83f31c681f3")
+		(property "Reference" "R19"
+			(at 38.608 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 48.26 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.18 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2a44f10-4e10-4a61-a270-b717940a4ccf")
+		)
+		(pin "1"
+			(uuid "d435e816-5efa-4308-a039-6a3352c4dab6")
+		)
+		(instances
+			(project "HSLinkPro"
+				(path "/5e2c1440-f6a4-4887-af75-aa6afc882006/730f2898-4f63-4d81-8a12-972da09fb379"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 50.8 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1fb53c2-6331-45b8-8168-0a03a5b409ab")
+		(property "Reference" "#PWR0141"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TRANS_VCC_OUT"
+			(at 50.8 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f29016b-1e87-4656-85da-3d2ab3d4178c")
+		)
+		(instances
+			(project "HSLinkPro"
+				(path "/5e2c1440-f6a4-4887-af75-aa6afc882006/730f2898-4f63-4d81-8a12-972da09fb379"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
