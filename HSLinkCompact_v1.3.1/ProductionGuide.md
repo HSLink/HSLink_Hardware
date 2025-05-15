@@ -22,7 +22,7 @@
 
 打开HPM的上位机选择对应的串口，速率拉高后点击连接
 
-![hpmprog](img/hpm_prog_download.png)
+![hpmprog](img/hpm_prog_select.png)
 
 选择固件压缩包中的Merge.bin文件，点击烧写。
 
