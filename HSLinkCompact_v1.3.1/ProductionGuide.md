@@ -14,11 +14,11 @@
 
 使用1.27的测试夹，或是直接焊线，将USB转串口连接到PCB左下角的烧录点。参照背面对应位置的丝印，GND连接GND，TX接RX，RX接TX，3V不连接。
 
+![hslink_connction](img/hslink_connction.jpg)
+
 ## 连接电脑烧录
 
 按住按键后插入PCB的Type-C接口，再插入USB转串口的USB接口。
-
-![hslink_connction](img/hslink_connction.jpg)
 
 打开HPM的上位机选择对应的串口，速率拉高后点击连接
 
